@@ -17,11 +17,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
-        
-        table.register(WeatherTableViewCell.nib(), forCellReuseIdentifier: WeatherTableViewCell.identifier)
         table.register(HourlyTableViewCell.nib(), forCellReuseIdentifier: HourlyTableViewCell.identifier)
-        table.register(HeaderTableView.nib(), forHeaderFooterViewReuseIdentifier: HeaderTableView.identifier)
-        
         view.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0, alpha: 1.0)
         table.backgroundColor = UIColor(red: 52/255.0, green: 109/255.0, blue: 179/255.0, alpha: 1.0)
         
@@ -63,24 +59,14 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
-            return 1
-        }
-        return dailyModels.count
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-             if indexPath.section == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: HourlyTableViewCell.identifier, for: indexPath) as! HourlyTableViewCell
                 cell.configure(with: hourlyModels)
                 cell.backgroundColor = UIColor.black
                 return cell
-              }
-                let cell = tableView.dequeueReusableCell(withIdentifier: WeatherTableViewCell.identifier, for: indexPath) as! WeatherTableViewCell
-                cell.configure(with: dailyModels[indexPath.row])
-                   return cell
-
-            
     }
     
 
@@ -92,9 +78,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         return ""
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
-    }
+
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
