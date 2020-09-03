@@ -12,23 +12,23 @@
 		CB23D65F24F3696900DF60DC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D65E24F3696900DF60DC /* WeatherData.swift */; };
 		CB23D66124F398A400DF60DC /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D66024F398A400DF60DC /* LocationData.swift */; };
 		CB23D66324F399EE00DF60DC /* CoordinateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D66224F399EE00DF60DC /* CoordinateData.swift */; };
-		CB23D66524F39C5900DF60DC /* Coor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D66424F39C5900DF60DC /* Coor.swift */; };
 		CBB58A8224ECDF6B00889425 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB58A8024ECDF6A00889425 /* WeatherCollectionViewCell.swift */; };
 		CBB58A8324ECDF6B00889425 /* WeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB58A8124ECDF6B00889425 /* WeatherCollectionViewCell.xib */; };
 		CBB58A8A24ECDF7C00889425 /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB58A8824ECDF7C00889425 /* HourlyTableViewCell.swift */; };
 		CBB58A8B24ECDF7C00889425 /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB58A8924ECDF7C00889425 /* HourlyTableViewCell.xib */; };
+		CBBB36CB25014090006DF0E5 /* DataWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D824EB8B8700060D7A /* DataWeather.swift */; };
+		CBBB36CC25014093006DF0E5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D924EB8B8700060D7A /* Weather.swift */; };
+		CBBB36CD25014096006DF0E5 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DA24EB8B8700060D7A /* Current.swift */; };
+		CBBB36CE25014099006DF0E5 /* Hourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D724EB8B8700060D7A /* Hourly.swift */; };
+		CBBB36CF2501409C006DF0E5 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DB24EB8B8700060D7A /* Daily.swift */; };
+		CBBB36D02501409E006DF0E5 /* FeelsLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DD24EB8B8700060D7A /* FeelsLike.swift */; };
+		CBBB36D1250140A0006DF0E5 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DC24EB8B8700060D7A /* Temperature.swift */; };
+		CBBB36D2250140A2006DF0E5 /* Coor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23D66424F39C5900DF60DC /* Coor.swift */; };
 		CBC761A924EB806800060D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761A824EB806800060D7A /* AppDelegate.swift */; };
 		CBC761AB24EB806800060D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761AA24EB806800060D7A /* SceneDelegate.swift */; };
 		CBC761B024EB806800060D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC761AE24EB806800060D7A /* Main.storyboard */; };
 		CBC761B224EB806900060D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC761B124EB806900060D7A /* Assets.xcassets */; };
 		CBC761B524EB806900060D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC761B324EB806900060D7A /* LaunchScreen.storyboard */; };
-		CBC761DE24EB8B8700060D7A /* Hourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D724EB8B8700060D7A /* Hourly.swift */; };
-		CBC761DF24EB8B8700060D7A /* DataWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D824EB8B8700060D7A /* DataWeather.swift */; };
-		CBC761E024EB8B8700060D7A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761D924EB8B8700060D7A /* Weather.swift */; };
-		CBC761E124EB8B8700060D7A /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DA24EB8B8700060D7A /* Current.swift */; };
-		CBC761E224EB8B8700060D7A /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DB24EB8B8700060D7A /* Daily.swift */; };
-		CBC761E324EB8B8700060D7A /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DC24EB8B8700060D7A /* Temperature.swift */; };
-		CBC761E424EB8B8700060D7A /* FeelsLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC761DD24EB8B8700060D7A /* FeelsLike.swift */; };
 		CBC761E624EB8B9700060D7A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC761E524EB8B9700060D7A /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -361,22 +361,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB23D66524F39C5900DF60DC /* Coor.swift in Sources */,
 				CB23D66124F398A400DF60DC /* LocationData.swift in Sources */,
-				CBC761DE24EB8B8700060D7A /* Hourly.swift in Sources */,
 				CB23D65F24F3696900DF60DC /* WeatherData.swift in Sources */,
-				CBC761E424EB8B8700060D7A /* FeelsLike.swift in Sources */,
-				CBC761DF24EB8B8700060D7A /* DataWeather.swift in Sources */,
 				CBC761A924EB806800060D7A /* AppDelegate.swift in Sources */,
-				CBC761E024EB8B8700060D7A /* Weather.swift in Sources */,
+				CBBB36CB25014090006DF0E5 /* DataWeather.swift in Sources */,
 				CBB58A8A24ECDF7C00889425 /* HourlyTableViewCell.swift in Sources */,
+				CBBB36CC25014093006DF0E5 /* Weather.swift in Sources */,
 				CBC761AB24EB806800060D7A /* SceneDelegate.swift in Sources */,
+				CBBB36CF2501409C006DF0E5 /* Daily.swift in Sources */,
+				CBBB36D2250140A2006DF0E5 /* Coor.swift in Sources */,
 				CB2391AF24EB8F6600406091 /* HomeViewController.swift in Sources */,
-				CBC761E324EB8B8700060D7A /* Temperature.swift in Sources */,
-				CBC761E224EB8B8700060D7A /* Daily.swift in Sources */,
+				CBBB36D1250140A0006DF0E5 /* Temperature.swift in Sources */,
+				CBBB36CE25014099006DF0E5 /* Hourly.swift in Sources */,
+				CBBB36CD25014096006DF0E5 /* Current.swift in Sources */,
 				CBB58A8224ECDF6B00889425 /* WeatherCollectionViewCell.swift in Sources */,
+				CBBB36D02501409E006DF0E5 /* FeelsLike.swift in Sources */,
 				CB23D66324F399EE00DF60DC /* CoordinateData.swift in Sources */,
-				CBC761E124EB8B8700060D7A /* Current.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
